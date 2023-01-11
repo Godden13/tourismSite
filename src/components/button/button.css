@@ -1,0 +1,15 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.buttonStyle1 {
+  border-radius: 10px;
+  margin: 25px;
+  padding: 0px 30px;
+  border: 1px solid #304F47;
+  color: #fff;
+  background-color: #C7923E;
+  justify-content: center;
+  align-items: center;
+}

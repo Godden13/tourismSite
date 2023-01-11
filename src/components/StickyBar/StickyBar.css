@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.containerSticky {
+  position: absolute;
+  padding: 7px 0px;
+  width: 100%;
+  background-color: #304F47;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.contact {
+  padding: 0px 50px;
+}
+
+.contact span {
+  padding: 0px 20px;
+  font: Podkova;
+}
+
+.socialMedia {
+  display: flex;
+  gap: 1rem;
+  padding: 0px 50px;
+}
+
+.socialMedia i {
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 50%;
+  font: Podkova;
+}

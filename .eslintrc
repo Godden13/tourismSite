@@ -4,7 +4,6 @@
     "es2021": true
   },
   "extends": [
-    "plugin:react/recommended",
     "airbnb",
     "plugin:prettier/recommended"
   ],
@@ -21,6 +20,7 @@
       {
         "extensions": [".js", ".jsx"]
       }
-    ]
+    ],
+    "react/prefer-stateless-function": "off"
   }
 }
