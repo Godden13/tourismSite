@@ -1,14 +1,19 @@
-import { Component } from 'react';
 import './Body.css';
+import React from 'react';
+import { PropTypes } from 'prop-types';
 
-class Body extends Component {
-  render() {
-    return (
-      <div className="container">
-        <h3>Choose Your Package</h3>
-      </div>
-    );
-  }
+function CarouselBody({ smallText, text }) {
+  return (
+    <div className="BodyContainer">
+      <h3>{smallText} </h3>
+      <h1>{text}</h1>
+    </div>
+  );
 }
 
-export default Body;
+CarouselBody.propTypes = {
+  smallText: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+};
+
+export default CarouselBody;

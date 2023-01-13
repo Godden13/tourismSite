@@ -1,0 +1,43 @@
+.Features__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  width: 80%;
+  margin: auto;
+}
+
+.Features__image {
+}
+
+#card {
+  border: none;
+  gap: 1rem;
+}
+
+#imageCards {
+  gap: 0;
+  padding: 0;
+  display: flex;
+  width: 35%;
+  gap: 2rem;
+  justify-content: center;
+  margin: auto;
+}
+
+#image1 {
+  width: 200px;
+  height: 200px;
+}
+
+.buttons {
+  display: flex;
+  justify-content:flex-end;
+  align-items: flex-end;
+  gap: 1rem;
+}
+
+.buttons button {
+  border-radius: 5px;
+  padding: 10px;
+}

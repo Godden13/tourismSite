@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import './Hero.css';
-import '../button/button.css';
+import '../../../components/button/button.css';
 
 class Hero extends Component {
   render() {
@@ -12,8 +12,8 @@ class Hero extends Component {
             <p>Discover the town of a Thousand Hills</p>
           </div>
           <div className="angleBr">
-            <span className="left">&lang;</span>
-            <span className="right">&rang;</span>
+            <span className="left">&rang;</span>
+            <span className="right">&lang;</span>
           </div>
         </div>
         <div className="searchBar">

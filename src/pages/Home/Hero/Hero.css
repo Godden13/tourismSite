@@ -1,61 +1,47 @@
-* {
-  padding: 0;
-  margin: 0;
-  font-family: 'Mulish';
-}
-
 .containerHero {
-  background-image: url("../../assets/Home/image3.png");
+  background-image: url('../../../assets/Home/image3.png');
   background-size: cover;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   height: 40vw;
   color: #fff;
+  font-family: 'Mulish';
+  backdrop-filter: brightness(50%);
 }
 
 .containerHero h1 {
-position: absolute;
-font-family: 'Lora';
-font-style: normal;
-width: 50%;
-font-size: 50px;
-left: 136px;
-top: 362px;
-}
-
-.containerHero p {
-  position: absolute;
   font-family: 'Lora';
   font-style: normal;
   width: 50%;
-  font-size: 20px;
-  left: 136px;
-  top: 527px;
+  font-size: 50px;
+  padding: 120px 100px 40px 100px;
+}
+
+.containerHero p {
+  font-family: 'Lora';
+  font-style: normal;
+  width: 50%;
+  font-size: 25px;
+  padding: 0 100px 100px 100px;
 }
 
 .angleBr {
-  position: inherit;
   display: flex;
   width: 90%;
   margin: auto;
   justify-content: space-between;
-  position: inherit;
-  left: 105px;
-  bottom: 1px;
+  gap: 5rem;
 }
-/* 
+
 .left {
-  margin: 0 200px;
   border: 4px solid #fff;
-  
   background-color: inherit;
   border-radius: 50%;
   color: #fff;
-  top: 600px;
   padding: 5px;
+  margin: 0 60px 0 70rem;
 }
 
-right {
-  margin: 0 200px;
+.right {
   border: 4px solid #fff;
   display: flex;
   justify-content: center;
@@ -63,10 +49,8 @@ right {
   background-color: inherit;
   border-radius: 50%;
   color: #fff;
-  right: 0;
-  top: 600px;
   padding: 5px;
-} */
+}
 
 .searchBar {
   display: flex;
@@ -76,9 +60,15 @@ right {
   height: 80px;
   width: 80%;
   margin: auto;
-  background-color: #304F47;
+  background-color: #304f47;
   color: #fff;
   bottom: 1;
+  border-radius: 5px;
+  transform: translateY(-40%);
+}
+
+.searchBar button {
+  padding: 10px;
 }
 
 .searchBar input {
@@ -86,11 +76,11 @@ right {
   width: 400px;
   height: 50px;
   font-size: 10px;
-  border: 1px solid #E1E1E1;
+  border: 1px solid #e1e1e1;
   border-radius: 10px;
 }
 
 .searchBar p {
   font-size: 9px;
-  color: #9A9AB0;
+  color: #9a9ab0;
 }
