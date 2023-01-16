@@ -1,0 +1,24 @@
+.PackageBtn__Body {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 90px;
+  box-sizing: border-box;
+}
+
+
+.PackageBtn_element {
+  padding: 10px;
+  border: none;
+  background-color: #C7923E;
+  color: #fff;
+  border-radius: 5px;
+  align-items: center;
+  border: 2px solid #C7923E;
+}
+
+.PackageBtn_element:hover {
+  background-color: #fff;
+  color: #C7923E;
+  border: 2px solid #C7923E;
+}

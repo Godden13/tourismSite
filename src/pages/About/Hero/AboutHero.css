@@ -1,7 +1,41 @@
 
-.about__container {
-  background-image: url();
+.about__hero__container {
+  background-image: url('../../../assets/about/bg.png');
+  background-repeat: no-repeat, no-repeat;
+  background-size: 40% 100%;
+  background-position-x: right;
   height: 40vw;
+  width: 100%;
+  margin: auto;
+  font-size: 25px;
+  color: #000;
 }
+
 .about__container_compo {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about__container_compo h1 {
+  padding: 80px 80px 20px 80px;
+}
+
+.about__container_compo p {
+  padding: 0 80px;
+  color: #515151;
+  font-size: 20px;
+}
+
+#About_serchBar {
+  max-height: 8vh;
+  width: 20rem;
+  padding: 2px;
+  max-width: 30rem;
+  background-color: #fff;
+  color: #000;
+}
+
+#About_serchBar text{
+  color: #000;
 }

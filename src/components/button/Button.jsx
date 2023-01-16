@@ -1,5 +1,15 @@
 import './button.css';
+import React from 'react';
+import { PropTypes } from 'prop-types';
 
-export default function Button(prop) {
-  return <button type="button">{prop}</button>;
+export default function Button({ text }) {
+  return (
+    <button type="button" className="buttonStyle1">
+      {text}
+    </button>
+  );
 }
+
+Button.propTypes = {
+  text: PropTypes.string.isRequired,
+};

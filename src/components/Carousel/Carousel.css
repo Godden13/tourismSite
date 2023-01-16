@@ -4,6 +4,8 @@
   justify-content: center;
   align-items: center;
   margin: auto;
+  padding-left: 100px;
+  box-sizing: border-box;
 }
 
 #image {
@@ -17,8 +19,8 @@
   flex-wrap: wrap;
   justify-items: center;
   align-items: center;
-  /* padding: 30px; */
-  gap: 3rem;
+  gap: 1rem;
+  padding-bottom: 3rem;
   width: 90%;
   margin: auto;
 }

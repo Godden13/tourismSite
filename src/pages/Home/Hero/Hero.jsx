@@ -21,17 +21,23 @@ class Hero extends Component {
             type="search"
             placeholder="Search activities Or destinations"
           />
-          <div className="guestst">
+          <div className="guests">
             <p>Guests</p>
-            <span>2 Adults</span>
+            <select name="2 Adults">
+              <option value="2 Adults">2 Adults</option>
+            </select>
           </div>
-          <div className="date">
+          <div className="guests">
             <p>Date</p>
-            <span>12 - 13 April 2021</span>
+            <select>
+              <option value="date">12 - 13 April 2021</option>
+            </select>
           </div>
-          <div className="package">
+          <div className="guests">
             <p>Package</p>
-            <span>All</span>
+            <select>
+              <option value="All">All</option>
+            </select>
           </div>
           <button type="button" className="buttonStyle1">
             Book Now

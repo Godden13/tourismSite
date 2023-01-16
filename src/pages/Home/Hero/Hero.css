@@ -81,6 +81,15 @@
 }
 
 .searchBar p {
-  font-size: 9px;
   color: #9a9ab0;
+  font-size: 12px;
+}
+.searchBar select {
+  color: #fff;
+  background-color: inherit;
+  border: none;
+}
+
+.guests {
+  text-align: left;
 }

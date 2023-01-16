@@ -36,7 +36,9 @@
   color: #fff;
 }
 
-.button i
+.button i:hover {
+  color: #C7923E;
+}
 
 .containerNav button {
   padding: 10px 30px;

@@ -13,10 +13,10 @@ class NavBar extends Component {
             <img src={image} alt="" />
             <Link to="/">Home</Link>
             <Link to="about">About</Link>
-            <Link to="tourpackage">Tour PAckage</Link>
+            <Link to="package">Tour Package</Link>
             <Link to="gallery">Gallery</Link>
             <a href="../">Blog</a>
-            <a href="../">Contact Us</a>
+            <Link to="contact">Contact Us</Link>
           </div>
           <div className="button">
             <i className="fa-solid fa-magnifying-glass" />

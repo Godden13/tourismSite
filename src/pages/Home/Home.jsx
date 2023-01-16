@@ -14,6 +14,7 @@ function Home() {
         text="Select your Best Package for your Travel"
       />
       <Carousel />
+      <Carousel />
       <Body
         smallText="Popular Destinations"
         text="Select Our Best Popular Destinations"

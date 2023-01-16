@@ -1,5 +1,6 @@
 import './Footer.css';
 import image from '../../assets/Home/footer/Rectangle 645.png';
+import Button from '../button/Button';
 
 export default function Footer() {
   return (
@@ -22,9 +23,7 @@ export default function Footer() {
               placeholder="Input your email here"
               className="search_Bar_input"
             />
-            <button className="buttonStyle1" type="button">
-              <i className="fa-solid fa-paper-plane-top" />
-            </button>
+            <Button text={<i className="fa-solid fa-paper-plane-top" />} />
           </div>
         </div>
         <div className="right__side">

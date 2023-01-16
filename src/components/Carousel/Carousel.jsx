@@ -22,24 +22,6 @@ const images = [
     h2: 'Lake Kivu trip',
     p: 'A trip to Lake Kivu can be a truly unique and memorable experience.',
   },
-
-  {
-    src: img1,
-    h2: 'Akagera National Park',
-    p: 'Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks.',
-  },
-
-  {
-    src: img2,
-    h2: 'Bisoke Hike',
-    p: 'The Bisoke hike is a popular mountain trek in Rwanda, located in the Volcanoes National Park. It is one of the most challenging hikes in the park.',
-  },
-
-  {
-    src: img3,
-    h2: 'Lake Kivu trip',
-    p: 'A trip to Lake Kivu can be a truly unique and memorable experience.',
-  },
 ];
 
 export default function Carousel() {
