@@ -1,7 +1,6 @@
 import './Features.css';
 import image1 from '../../../assets/Home/arr2/1.png';
 import image2 from '../../../assets/Home/arr2/2.png';
-import image3 from '../../../assets/Home/arr2/3.png';
 import image4 from '../../../assets/Home/arr2/4.png';
 
 const images = [
@@ -21,7 +20,27 @@ const images = [
     p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.',
   },
   {
-    src: image3,
+    src: image4,
+    h2: 'Musanze',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.',
+  },
+  {
+    src: image1,
+    h2: 'Kigali',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.',
+  },
+  {
+    src: image2,
+    h2: 'Huye',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.',
+  },
+  {
+    src: image4,
+    h2: 'Rubavu',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.',
+  },
+  {
+    src: image4,
     h2: 'Musanze',
     p: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.',
   },

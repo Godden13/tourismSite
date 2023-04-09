@@ -11,9 +11,13 @@ class Hero extends Component {
             <h1>Experience the beauty of Rwanda with us</h1>
             <p>Discover the town of a Thousand Hills</p>
           </div>
-          <div className="angleBr">
-            <span className="left">&rang;</span>
-            <span className="right">&lang;</span>
+          <div className="angleBar">
+            <div className="angleBar_left">
+              <h6 className="left">&rang;</h6>
+            </div>
+            <div className="angleBar_right">
+              <h6 className="right">&lang;</h6>
+            </div>
           </div>
         </div>
         <div className="searchBar">

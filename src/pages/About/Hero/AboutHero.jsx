@@ -7,7 +7,7 @@ export default function AboutHero() {
         <h1>We are dedicated to providing the best travel experience.</h1>
         <p>Discover the Land of a Thousand Hills</p>
       </div>
-      <div className="searchBar" id="About_serchBar">
+      <div className="searchBar" id="About_searchBar">
         <div className="guests">
           <p>Guests</p>
           <select name="2 Adults">

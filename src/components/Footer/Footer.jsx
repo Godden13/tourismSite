@@ -23,7 +23,9 @@ export default function Footer() {
               placeholder="Input your email here"
               className="search_Bar_input"
             />
-            <Button text={<i className="fa-solid fa-paper-plane-top" />} />
+            <Button text="">
+              <i className="fa-solid fa-paper-plane-top" />
+            </Button>
           </div>
         </div>
         <div className="right__side">

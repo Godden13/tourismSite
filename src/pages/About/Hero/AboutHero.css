@@ -27,10 +27,9 @@
   font-size: 20px;
 }
 
-#About_serchBar {
+#About_searchBar {
   max-height: 8vh;
-  width: 20rem;
-  padding: 2px;
+  width: 90%;
   max-width: 30rem;
   background-color: #fff;
   color: #000;

@@ -1,4 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+  font-family: 'Playfair Display';
+}
 
 button {
   cursor: pointer;

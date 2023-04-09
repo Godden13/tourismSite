@@ -1,7 +1,12 @@
 .containerNav {
-  background-color: inherit;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.9);
   display: flex;
   font: Mulish;
+  width: 100%;
+  padding: 0;
 }
 
 .pages {
@@ -20,10 +25,10 @@
 
 .links a {
   text-decoration: none;
-  color: #304F47;
+  color: #304f47;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .button {
@@ -32,14 +37,20 @@
 }
 
 .button i {
-  padding: 10px;
+  padding: 1rem;
   color: #fff;
 }
 
 .button i:hover {
-  color: #C7923E;
+  color: #c7923e;
 }
 
 .containerNav button {
   padding: 10px 30px;
+}
+
+@media screen and (max-width: 670px) {
+  * {
+    font-size: 10px;
+  }
 }
